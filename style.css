@@ -28,7 +28,7 @@ background-color: yellow;
 #header_allindia{
 background-color: red;
 height: 55px;
-width: 120px;
+width: 160px;
 float: left;
 
 }
@@ -45,9 +45,8 @@ float: left;
 
 #header_search .search{
 
-padding-top:10px;
-padding-left:10px;
-width: 400px;
+padding:20px;
+width: 60px;
 
 }
 
@@ -106,7 +105,7 @@ text-decoration: none;
 .container{
 
 
-height: 500px;
+height: 600px;
 
 
 }
@@ -114,7 +113,7 @@ height: 500px;
 .footer{
 
 
-height: 85px;
+height: 250px;
 background-color: green;
 
 
