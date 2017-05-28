@@ -1,0 +1,121 @@
+*{
+margin: 0px;
+padding: 0px;
+
+}
+
+
+#header_main{
+
+
+height: 60px;
+
+
+
+}
+
+#header_logo{
+height: 55px;
+width: 120px;
+float: left;
+
+
+background-color: yellow;
+}
+
+
+
+#header_allindia{
+background-color: red;
+height: 55px;
+width: 120px;
+float: left;
+
+}
+
+#header_search{
+background-color: green;
+height: 55px;
+width: 500px;
+float: left;
+
+}
+
+
+
+#header_search .search{
+
+padding-top:10px;
+padding-left:10px;
+width: 400px;
+
+}
+
+#header_search .search input{
+
+background-color: red;
+
+
+}
+
+#header_login{
+background-color: yellow;
+float: right;
+height: 55px;
+width: 150px;
+
+line-height: 
+}
+#header_login .login{
+
+line-height: 55px;
+text-align: center;
+}
+
+#header_login .login a{
+text-decoration: none;
+
+
+}
+
+
+
+#header_register{
+background-color: red;
+float: right;
+height: 55px;
+width: 120px;
+
+
+}
+
+#header_register .register{
+line-height: 55px;
+padding-left: 15px;
+
+
+}
+#header_register .register a{
+
+text-decoration: none;
+
+
+}
+
+
+.container{
+
+
+height: 500px;
+
+
+}
+
+.footer{
+
+
+height: 85px;
+background-color: green;
+
+
+}
