@@ -110,6 +110,33 @@ height: 600px;
 
 
 }
+
+.menucontainer{
+
+padding: 0px;
+
+margin-top: 2px;
+border-style: groove;
+height: 30px;
+
+
+}
+
+.navbar{
+border-style: groove;
+
+} 
+
+
+
+.routecontainer{
+padding: 0px;
+
+margin-top: 2px;
+border-style: groove;
+height: 30px;
+}
+
 .container #subcontainer{
 
 height: 500px;
