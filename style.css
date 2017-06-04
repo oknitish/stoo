@@ -33,6 +33,20 @@ float: left;
 
 }
 
+#header_allindia .state  .state1{
+
+width: 55px;
+height: 160px;
+border-color: orange;
+
+}
+
+
+
+
+
+
+
 /*search bar */
 
 #header_search{
@@ -122,8 +136,21 @@ height: 30px;
 
 }
 
-.navbar{
-border-style: groove;
+.menucontainer ul{
+
+
+
+    list-style-type: none;
+    margin-left:400px;
+    padding: 0;
+    
+   
+}
+
+.menucontainer ul li {
+    float: left;
+line-height: 30px;
+}
 
 } 
 
