@@ -8,14 +8,14 @@ padding: 0px;
 #header_main{
 
 
-height: 60px;
+height: 70px;
 
 
 
 }
 
 #header_logo{
-height: 55px;
+height: 70px;
 width: 120px;
 float: left;
 
@@ -27,7 +27,7 @@ background-color: #0065AA;
 
 #header_allindia{
 background-color: #006577;
-height: 55px;
+height: 70px;
 width: 160px;
 float: left;
 
@@ -51,7 +51,7 @@ border-color: orange;
 
 #header_search{
 background-color: #2B5464;
-height: 55px;
+height: 70px;
 width: 750px;
 float: left;
 
@@ -75,14 +75,14 @@ background-color: yellow;
 #header_login{
 background-color:#0065AA;
 float: right;
-height: 55px;
+height: 70px;
 width: 150px;
 
 line-height: 
 }
 #header_login .login{
 
-line-height: 55px;
+line-height: 70px;
 text-align: center;
 }
 
@@ -97,14 +97,14 @@ color: white;
 #header_register{
 background-color: #0065AA;
 float: right;
-height: 55px;
+height: 70px;
 width: 120px;
 
 
 }
 
 #header_register .register{
-line-height: 55px;
+line-height: 70px;
 padding-left: 15px;
 
 
@@ -167,26 +167,41 @@ height: 30px;
 .container #subcontainer{
 
 height: 500px;
-
-width: 70%;
+background-color: #0069B1;
+width: 100%;
 //padding: 50px;
-margin-left: 220px;
+//margin-left: 220px;
 border-style: groove;
 
 }
 
-.container #subcontainer .r1c1{
+.container #subcontainer #bodydiv #leftbodydiv{
 
-height: 150px;
+height: 200px;
 
-width:165px;
-float: left;
-margin-left: 10px;
+width:400px;
+//float: left;
+//margin-left: 10px;
+margin: 160px;
+
+
 border-style: groove;
 
 }
 
+.container #subcontainer #bodydiv #rightbodydiv{
 
+height: 200px;
+
+width:400px;
+//float: right;
+//margin-left: 10px;
+margin: 20px;
+
+position: absolute;
+border-style: groove;
+
+}
 
 
 
