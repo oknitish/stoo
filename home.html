@@ -6,30 +6,7 @@
 <link rel="stylesheet" type="text/css" href="style.css"/>
 
 <script src="login.js"></script>
-<script>
 
-function openCity(evt, cityName) {
-    // Declare all variables
-    var i, tabcontent, tablinks;
-
-    // Get all elements with class="tabcontent" and hide them
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-
-    // Get all elements with class="tablinks" and remove the class "active"
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-
-    // Show the current tab, and add an "active" class to the button that opened the tab
-    document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " active";
-}
-
-</script>
 
 
 </head>
@@ -82,15 +59,7 @@ function openCity(evt, cityName) {
 
 <div class="menucontainer">
 
-<ul>
 
-
-<li>IT Courses</li>
-<li>1 to 10</li>
-<li>+1 and +2 Courses</li>
-<li>Other Trainings</li>
-
-</ul>
 
 
 </div>
@@ -103,12 +72,7 @@ function openCity(evt, cityName) {
 <div id="subcontainer">
 
 
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">Male</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Female</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Kids</button>
-<button class="tablinks" onclick="openCity(event, 'Tokyo')">Household</button>
-</div>
+
 
 
 
@@ -151,7 +115,7 @@ function openCity(evt, cityName) {
 <input type="text" name="" value="Please Select your location"/>
 OR
 <p>Select your exact location by gps location</p>
-
+<span class="go"><a href="#">Go</a></span>
 
 </div>
 
