@@ -6,9 +6,30 @@
 <link rel="stylesheet" type="text/css" href="style.css"/>
 
 <script src="login.js"></script>
+<script>
 
+function openCity(evt, cityName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
 
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
 
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+</script>
 
 
 </head>
@@ -82,8 +103,38 @@
 <div id="subcontainer">
 
 
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">Male</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Female</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Kids</button>
+<button class="tablinks" onclick="openCity(event, 'Tokyo')">Household</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div id="bodydiv">
 <div id="leftbodydiv">
+
+<div id="cityselect">
+	<select  name="cityselect">
+<option value="bangalore">Bangaluru</option>
+</select>
+</div>
+
 
 <div id="select">
 	
@@ -91,6 +142,11 @@
 <option value="hsrlayout">hsrlayout</option>
 <option value="hsrlayout">btmlayout</option>
 <option value="hsrlayout">electronic city</option>
+<option value="hsrlayout">koramangala</option>
+<option value="hsrlayout">marathahalli</option>
+<option value="hsrlayout">madiwala</option>
+<option value="hsrlayout">banashankari</option>
+<option value="hsrlayout">bommanahalli</option>
 </select>
 <input type="text" name="" value="Please Select your location"/>
 OR
